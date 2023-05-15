@@ -15,6 +15,10 @@ body{
 
 /* Header */
 
+.header {
+
+}
+
 .header-logo{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -60,6 +64,10 @@ body{
 .nav-link:hover,
 .nav-link:focus {
     color: #404BBF;
+}
+
+.address-item {
+    font-style: normal;
 }
 
 .address-link{
@@ -178,6 +186,11 @@ background-color: #2E2F42;
     color: #434455;
     background-color: #FFFFFF;;
 }
+
+.team-item {
+    background-color: #FFFFFF;;
+}
+
 .teammate {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -251,6 +264,14 @@ background-color: #2E2F42;
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: #4D5AE5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.about-button:hover,
+.about-button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .product-title {
