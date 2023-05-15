@@ -78,12 +78,13 @@ color: #404BBF;
 }
 
 /* Hero */
+
 .hero{
 background-color: #2E2F42;
 }
 
 .hero-title{
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal; 
     font-weight: 700;
     font-size: 56px;
@@ -94,7 +95,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .hero-botton{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -103,13 +104,13 @@ font-family: 'Roboto', sans-serif;
     align-items: center;
     letter-spacing: 0.04em;
      color: #FFFFFF;
-    background: #4D5AE5;
+    background-color:  #4D5AE5;
     cursor: pointer;
 }
 
 .hero-botton:hover,
 .hero-botton:focus {
- color: #404BBF;
+ background-color:  #404BBF;
 }
 
 /* Section 1 */
@@ -188,7 +189,14 @@ font-family: 'Roboto', sans-serif;
 }
 
 .team-text {
-
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* Footer */
