@@ -45,6 +45,7 @@ body{
 .style-logo:focus {
     color: #404BBF;
 }
+
 .nav-link{
     font-family: 'Roboto';
         font-style: normal;
@@ -57,9 +58,9 @@ body{
 
 .nav-link:hover,
 .nav-link:focus {
-   color: #404BBF;
+    color: #404BBF;
 }
- 
+
 .address-link{
     font-family: 'Roboto';
         font-style: normal;
@@ -73,4 +74,132 @@ body{
 .address-link:hover,
 .address-link:focus {
 color: #404BBF;
+}
+
+/* Hero */
+.hero{
+background-color: #2E2F42;
+}
+
+.hero-title{
+font-family: 'Roboto';
+    font-style: normal; 
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1,07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF
+}
+
+.hero-botton{
+background: #4D5AE5;
+cursor: pointer;
+}
+
+.hero-botton:hover,
+.hero-botton:focus {
+    color: #404BBF;
+}
+
+/* Section 1 */
+
+.features-item-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+
+.features-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: #434455
+}
+
+/* Section 2 */
+
+.project-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;   
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+
+/* Section 3 */
+
+.team-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+
+.teammate {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em; 
+    /* NAVY BLUE */
+    color: #2E2F42
+}
+
+/* Footer */
+
+.footer {
+    background: #2E2F42;
+}
+
+.footer-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;   
+    color: #F4F4FD;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-style {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
 }
