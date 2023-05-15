@@ -203,3 +203,40 @@ cursor: pointer;
     text-transform: uppercase;
     color: #F4F4FD;
 }
+
+/* Portfolio */
+
+.about-item {
+    background: #F4F4FD;
+}
+
+.about-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+.product-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+
+.product-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
