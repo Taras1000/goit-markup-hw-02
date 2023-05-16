@@ -180,6 +180,7 @@ background-color: var(--second-background-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--second-title-color);
@@ -272,7 +273,7 @@ background-color: var(--second-background-color);
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: #4D5AE5;
-    background-color: var(--background-color);
+    background-color: #F4F4FD;
     cursor: pointer;
 }
 
