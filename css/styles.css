@@ -1,3 +1,14 @@
+:root {
+    --first-title-color: #FFFFFF;
+    --second-title-color: #2E2F42;
+    --text-color: #434455;
+    --hover-color: #404BBF;
+    --first-background-color: #F4F4FD;
+    --hover-background-color: #404BBF;
+    --second-background-color: #2E2F42;
+}
+
+
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -43,27 +54,27 @@ body{
 
 .header-logo:hover,
 .header-logo:focus {
-    color: #404BBF;
+    color: var(--hover-color);
 }
 
 .style-logo:hover,
 .style-logo:focus {
-    color: #404BBF;
+    color: var(--hover-color);
 }
 
 .nav-link{
     font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.50;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #404BBF;
+    color: var(--hover-color);
 }
 
 .header-address {
@@ -82,13 +93,13 @@ body{
 
 .address-link:hover,
 .address-link:focus {
-color: #404BBF;
+color: var(--hover-color);
 }
 
 /* Hero */
 
 .hero{
-background-color: #2E2F42;
+background-color: var(--second-background-color);
 }
 
 .hero-title{
@@ -99,7 +110,7 @@ background-color: #2E2F42;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF
+    color: var(--first-title-color);
 }
 
 .hero-button{
@@ -118,7 +129,7 @@ background-color: #2E2F42;
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #404BBF;
+    background-color: var(--hover-background-color);
 }
 
 /* Section 1 */
@@ -130,7 +141,7 @@ background-color: #2E2F42;
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--second-title-color);
 }
 
 .features-text {
@@ -140,7 +151,7 @@ background-color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455
+    color: var(--text-color);
 }
 
 /* Section 2 */
@@ -154,13 +165,13 @@ background-color: #2E2F42;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;   
-    color: #2E2F42;
+    color: var(--second-title-color);
 }
 
 /* Section 3 */
 
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--first-background-color);
 }
 
 .team-title {
@@ -169,10 +180,9 @@ background-color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--second-title-color);
 }
 
 .team-list {
@@ -181,7 +191,6 @@ background-color: #2E2F42;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
-    text-align: center;
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #FFFFFF;;
@@ -198,7 +207,7 @@ background-color: #2E2F42;
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em; 
-    color: #2E2F42
+    color: var(--second-title-color);
 }
 
 .team-text {
@@ -207,15 +216,14 @@ background-color: #2E2F42;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
-    text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
 
 /* Footer */
 
 .footer {
-    background: #2E2F42;
+    background: var(--second-background-color);
 }
 
 .footer-text {
@@ -253,7 +261,7 @@ background-color: #2E2F42;
 /* Portfolio */
 
 .about-item {
-    background: #F4F4FD;
+    background: var(--background-color);
 }
 
 .about-button {
@@ -264,14 +272,14 @@ background-color: #2E2F42;
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: #4D5AE5;
-    background-color: #F4F4FD;
+    background-color: var(--background-color);
     cursor: pointer;
 }
 
 .about-button:hover,
 .about-button:focus {
     color: #FFFFFF;
-    background-color: #404BBF;
+    background-color: var(--hover-background-color);
 }
 
 .product-title {
@@ -281,7 +289,7 @@ background-color: #2E2F42;
     font-size: 20px;
     line-height: 1.20;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--second-title-color);
 }
 
 .product-text {
@@ -291,5 +299,5 @@ background-color: #2E2F42;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--text-color);
 }
