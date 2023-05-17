@@ -1,18 +1,34 @@
 :root {
+    --color: #434455;
+    --background-color: #FFFFFF;
+    --logo-color: #4D5AE5;
+    --style-logo-color: #2E2F42;
+    --link-color: #2E2F42;
+    --address-link-color: #434455;
+    --hero-button-color: #FFFFFF;
+    --hero-btn-background-color: #4D5AE5;
     --first-title-color: #FFFFFF;
     --second-title-color: #2E2F42;
+    --team-list-color: #434455;
+    --team-list-background-color: #FFFFFF;
+    --team-item-background-color: #FFFFFF;
     --text-color: #434455;
     --hover-color: #404BBF;
     --first-background-color: #F4F4FD;
     --hover-background-color: #404BBF;
     --second-background-color: #2E2F42;
+    --footer-text-color: #F4F4FD;
+    --footer-logo-color: #4D5AE5;
+    --footer-logo-style-color: #F4F4FD;
+    --about-button-color: #4D5AE5;
+    --about-button-background-color: #F4F4FD;
+    --about-button-hover-color: #FFFFFF;
 }
-
 
 body{
     font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: white;    
+    color: var(--color);
+    background-color: var(--background-color);    
 }
 
 .list{
@@ -38,7 +54,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--logo-color);
 }
 
 .style-logo{
@@ -49,27 +65,15 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
-}
-
-.header-logo:hover,
-.header-logo:focus {
-    color: var(--hover-color);
-}
-
-.style-logo:hover,
-.style-logo:focus {
-    color: var(--hover-color);
+    color: var(--style-logo-color);
 }
 
 .nav-link{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--link-color);
 }
 
 .nav-link:hover,
@@ -82,13 +86,10 @@ body{
 }
 
 .address-link{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--address-link-color);
 }
 
 .address-link:hover,
@@ -103,8 +104,6 @@ background-color: var(--second-background-color);
 }
 
 .hero-title{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal; 
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -119,11 +118,9 @@ background-color: var(--second-background-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.50;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color:  #4D5AE5;
+    color: var(--hero-button-color);
+    background-color: var(--hero-btn-background-color);
     cursor: pointer;
 }
 
@@ -135,8 +132,6 @@ background-color: var(--second-background-color);
 /* Section 1 */
 
 .features-item-title {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
@@ -145,9 +140,6 @@ background-color: var(--second-background-color);
 }
 
 .features-text {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -157,8 +149,6 @@ background-color: var(--second-background-color);
 /* Section 2 */
 
 .project-title {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -175,8 +165,6 @@ background-color: var(--second-background-color);
 }
 
 .team-title {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -187,23 +175,18 @@ background-color: var(--second-background-color);
 }
 
 .team-list {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    color: #434455;
-    background-color: #FFFFFF;;
+    color: var(--team-list-color);
+    background-color: var(--team-list-background-color);
 }
 
 .team-item {
-    background-color: #FFFFFF;;
+    background-color: var(--team-item-background-color);
 }
 
 .teammate {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
@@ -212,9 +195,6 @@ background-color: var(--second-background-color);
 }
 
 .team-text {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
@@ -228,13 +208,10 @@ background-color: var(--second-background-color);
 }
 
 .footer-text {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;   
-    color: #F4F4FD;
+    color: var(--footer-text-color);
 }
 
 .footer-logo {
@@ -245,7 +222,7 @@ background-color: var(--second-background-color);
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--footer-logo-color);
 }
 
 .logo-style {
@@ -256,7 +233,7 @@ background-color: var(--second-background-color);
     line-height: 1.17; 
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: var(--footer-logo-style-color);
 }
 
 /* Portfolio */
@@ -272,20 +249,18 @@ background-color: var(--second-background-color);
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
-    background-color: #F4F4FD;
+    color: var(--about-button-color);
+    background-color: var(--about-button-background-color);
     cursor: pointer;
 }
 
 .about-button:hover,
 .about-button:focus {
-    color: #FFFFFF;
+    color: var(--about-button-hover-color);
     background-color: var(--hover-background-color);
 }
 
 .product-title {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
@@ -294,9 +269,6 @@ background-color: var(--second-background-color);
 }
 
 .product-text {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
