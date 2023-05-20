@@ -9,8 +9,6 @@
     --hero-btn-background-color: #4D5AE5;
     --first-title-color: #FFFFFF;
     --second-title-color: #2E2F42;
-    --team-list-color: #434455;
-    --team-list-background-color: #FFFFFF;
     --team-item-background-color: #FFFFFF;
     --text-color: #434455;
     --hover-color: #404BBF;
@@ -172,14 +170,6 @@ background-color: var(--second-background-color);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--second-title-color);
-}
-
-.team-list {
-    font-size: 16px;
-    line-height: 1.50;
-    letter-spacing: 0.02em;
-    color: var(--team-list-color);
-    background-color: var(--team-list-background-color);
 }
 
 .team-item {
